@@ -20,10 +20,10 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="euro_txt" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Label text="Euro" GridPane.columnIndex="1" />
-      <Button fx:id="convert_btn" mnemonicParsing="false" text="Convert" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <TextField GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Button fx:id="convert_btn" mnemonicParsing="false" onAction="#doConversion" text="Convert" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <TextField fx:id="yen_txt" GridPane.columnIndex="3" GridPane.rowIndex="1" />
       <Label text="Yen" GridPane.columnIndex="3" />
    </children>
 </GridPane>
